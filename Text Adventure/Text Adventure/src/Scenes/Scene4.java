@@ -52,7 +52,7 @@ public static void event1() {
 			System.out.printf("%nYou close your eyes tightly and say a silent prayer that you're correct.%n"
 					+ "you hear a puff and feel a pull in the pit of your stomach.%n"
 					+ "your eyes snap open but then...%n"); 
-			 youDie();
+			 answer1();
 			 break whileLoop;	 
 		}
 		else{

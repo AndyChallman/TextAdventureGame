@@ -32,7 +32,7 @@ public class Scene3 {
 
 			String answerS1P1 = in.nextLine();
 			if(answerS1P1.equalsIgnoreCase("A")) {
-				 if (characterSetup.player1.getStrength() > 15) {
+				 if (characterSetup.player1.getStrength() > 14) {
 					 S1P1pathA();
 					 break whileLoop; 
 			}
@@ -40,7 +40,7 @@ public class Scene3 {
 				System.out.printf("%n%nYour Strength is too low!%n%n");
 			}
 		    if(answerS1P1.equalsIgnoreCase("B")) {
-				 if (characterSetup.player1.getMagic() > 15) {
+				 if (characterSetup.player1.getMagic() > 14) {
 			     S1P1pathB();
 				 break whileLoop;
 				 }else {
